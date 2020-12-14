@@ -1,0 +1,128 @@
+/*STYLES GENERAUX*/
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: rgb(74, 15, 235);
+}
+/*HEADER*/
+header{
+    width: 100%;
+    padding: 20px, 0px;
+    background: rgb(127, 164, 185);
+    box-shadow: 0px 0px 15px #333;
+}
+header{
+    border-bottom: 2px solid #fff;
+    
+}
+header h1{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0px auto;
+    
+}
+header h2{
+    color: silver;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0px auto;
+    
+}
+/*section*/
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+   }
+   section h2{
+       margin: 20px 0;
+       width: 90%;
+   }
+   section > div{
+       width: 90%;
+   }
+   .photo-flex{
+       width: 150px;
+       height: 150px;
+    }
+    .prez-flex{
+        border-bottom: 2px #ccc;
+    }
+    #tel{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 10px; auto 30px auto;
+       background-color: #EA0 ;
+       box-shadow: 0px 0px 10px #ccc;
+       border-radius: 5px;
+    }
+    .contact-flex{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: right;
+    }
+    .contact-flex p: :first-child{
+        flex: 0 0 60%;
+    }
+    .contact-flex{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px auto 0px auto;
+    }
+    .exp-flex,.compet-flex,.dip-flex,h2{
+        display: flex;
+        flex-flow: row wrap;
+        border-bottom: 1px solid blue;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+     }
+     .exp-info{
+        display: flex;
+        flex-flow: column wrap;
+     }
+     .compet-flex{ 
+         display: flex;
+         flex-flow: row wrap;
+         margin-bottom: 10px;
+     }
+     .info,.lang{
+         display: flex;
+         flex-flow: row wrap;
+         margin-bottom: 10px;
+     }
+     .compet-flex p{
+         flex: 0 0 40px;
+     }
+     .conteneur-barre{
+         flex: 0 0 60%;
+         border-radius: 5px;
+         background-color: blue;
+         border-bottom: 1px ridge blue;
+         display: block;
+         height: 100%;
+         border-top-left-radius: 5px;
+         border-bottom-left-radius: 5px;
+        }
+        .c{
+            width: 60;
+        }
+
+
